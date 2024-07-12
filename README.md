@@ -57,7 +57,7 @@ sudo crontab -e
 Para monitoramento em tempo real dia adicione a seguinte linha para executar o script todos os dias a cada 2 minutos:
 
 ```bash
-0 12 * * * /caminho/para/seu/script/monitor-de-memoria-com-envio-de-email.sh
+*/2 * * * * /caminho/para/seu/script/monitor-de-memoria-com-envio-de-email.sh
 ```
 Caso prefira que o monitoramento ocorra diariamente mas rodando uma vez ao dia adicione a seguinte linha para executar o script todos os dias às 12:00:
 
