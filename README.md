@@ -1,7 +1,7 @@
 # Monitor de Memória do Servidor - Ambiente Linux
 ------
 
-Este é um script shell que monitora o uso da memória do sistema e envia um alerta ao adm por e-mail se o consumo ultrapassar um determinado limite.
+Estes são scripts shell que monitoram o uso da memória do sistema, um deles envia um alerta ao adm por e-mail se o consumo ultrapassar um determinado limite.
 
 ------
 ## Descrição
@@ -11,7 +11,7 @@ O script verifica a memória total e a memória consumida do sistema, calculando
 ------
 ## Funcionalidades
 
-- Monitora o uso da memória em tempo real. Também é possivel configurar a verificação em um intervalo de tempo desejado (no meu caso coloquei a cada 2 minutos)
+- Monitora o uso da memória em tempo real, mas é possivel configurar a verificação em um intervalo de tempo desejado.
 
 - Envia um alerta ao adm por e-mail quando o consumo de memória ultrapassa o limite determinado (no meu caso configurei pra 80%) .
 
@@ -54,7 +54,7 @@ Para executar o script automaticamente, você pode agendar uma tarefa no cron. P
 ```bash
 sudo crontab -e
 ```
-Para monitoramento em tempo real dia adicione a seguinte linha para executar o script todos os dias a cada 2 minutos:
+Para monitoramento em tempo real adicione a seguinte linha para executar o script todos os dias a cada 2 minutos:
 
 ```bash
 */2 * * * * /caminho/para/seu/script/monitor-de-memoria-com-envio-de-email.sh
