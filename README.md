@@ -9,13 +9,6 @@ Estes são scripts shell que monitoram o uso da memória do sistema, um deles en
 O script verifica a memória total e a memória consumida do sistema, calculando a porcentagem de uso. Se essa porcentagem exceder 80%, um e-mail é enviado ao administrador para notificar sobre o alto consumo de memória.
 
 ------
-## Funcionalidades
-
-- Monitora o uso da memória em tempo real, mas é possivel configurar a verificação em um intervalo de tempo desejado.
-
-- Envia um alerta ao adm por e-mail quando o consumo de memória ultrapassa o limite determinado (no meu caso configurei pra 80%) .
-
-------
 ## Pré-requisitos
 
 - Sistema operacional Linux com suporte a bash.
@@ -23,24 +16,28 @@ O script verifica a memória total e a memória consumida do sistema, calculando
 - Acesso ao comando `free` para verificar o uso da memória.
 
 ## Como Usar
-
-1. Clone o repositório:
 ```bash
+# Clone o repositório:
 git clone https://github.com/Glaucia-S-Castro/Shell-Scripting-Monitor-de-Memoria.git
-   
+
+# Entre no diretório:  
 cd Shell-Scripting-Monitor-de-Memoria
-```
-2 . Dê permissão de execução ao script:
 
-```bash
+# Dê permissão de execução ao script:
 chmod +x monitor-de-memoria-com-envio-de-email.sh
-```
-3. Execute o script:
 
-```bash
+# Execute o script:
 bash monitor-de-memoria-com-envio-de-email.sh
 ```
 -------
+
+## Funcionalidades
+
+- Monitora o uso da memória em tempo real, mas é possivel configurar a verificação em um intervalo de tempo desejado.
+
+- Envia um alerta ao adm por e-mail quando o consumo de memória ultrapassa o limite determinado (no meu caso configurei pra 80%) .
+
+------
 
 ## Configuração do E-mail
 
