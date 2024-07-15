@@ -25,7 +25,8 @@ Versão SO Linux Ubuntu 20.04.06 LTS
 ```
 -----
 
-## Como Usar
+# Instalação
+
 ```bash
 # Clone o repositório:
 git clone https://github.com/Glaucia-S-Castro/Shell-Scripting-Monitor-de-Memoria.git
@@ -74,12 +75,22 @@ Caso prefira que o monitoramento ocorra diariamente mas rodando uma vez ao dia a
 Salve a alteração no arquivo e pronto, seu script vai rodar automáticamente conforme configurado.
 
 -------
-## Contribuição
-Sinta-se à vontade para fazer um fork do repositório, realizar alterações e abrir pull requests.
+## Licença
+
+Este projeto é um projeto pessoal e não possui uma licença específica.
 
 -------
+## Contribuições
 
-## Contato
-Para dúvidas ou sugestões, entre em contato:
+Sinta-se à vontade para contribuir
 
-Email: glauciacastro.dev@gmail.com
+- Faça um fork do repositório
+- Crie uma branch para sua modificação (git checkout -b feature/nova-feature)
+- Faça commit das suas alterações (git commit -m 'Adiciona nova feature')
+- Faça push para a branch (git push origin feature/nova-feature)
+Abra um Pull Request
+
+-------
+## Autor
+
+Glaucia Castro - glauciacastro.dev@gmail.com
