@@ -3,17 +3,27 @@
 
 Estes são scripts shell que monitoram o uso da memória do sistema, um deles envia um alerta ao adm por e-mail se o consumo ultrapassar um determinado limite.
 
-------
-## Descrição
 
 O script verifica a memória total e a memória consumida do sistema, calculando a porcentagem de uso. Se essa porcentagem exceder 80%, um e-mail é enviado ao administrador para notificar sobre o alto consumo de memória.
 
 ------
-## Pré-requisitos
+# Pré-requisitos
 
 - Sistema operacional Linux com suporte a bash.
 - Ferramenta `mail` instalada e configurada para envio de e-mails.
 - Acesso ao comando `free` para verificar o uso da memória.
+
+------
+# Versão do bash
+
+Versão do bash em que eu fiz os meus testes, em versões antigas alguns comandos e recursos podem não funcionar.
+
+```bash
+# $ bash --version
+GNU bash, version 5.1.16(1)-release (x86_64-pc-linux-gnu)
+Versão SO Linux Ubuntu 20.04.06 LTS
+```
+-----
 
 ## Como Usar
 ```bash
